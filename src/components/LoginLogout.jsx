@@ -2,7 +2,6 @@ import React from 'react';
 import Payments from './Payments';
 
 const LoginLogout = ({ auth }) => {
-    console.log("logoutoo", auth)
     if (auth === null) {
         return;
     } else {
